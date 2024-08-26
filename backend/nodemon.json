@@ -1,0 +1,22 @@
+{
+  "ignore": [".git", "node_modules"],
+  "verbose": false,
+  "watch": [
+    "./src",
+    "tsconfig.json",
+    "nodemon.json",
+    "./.env",
+    "./.env.local",
+    "./.env.localDocker"
+  ],
+  "execMap": {
+    "ts": "node --require ts-node/register"
+  },
+  "ext": "js,json,ts",
+  "execArgs": ["--inspect=0.0.0.0:9232", "--nolazy"],
+  "signal": "SIGINT",
+  "quiet": true,
+  "events": {
+    "restart": "clear"
+  }
+}

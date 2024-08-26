@@ -1,0 +1,24 @@
+{
+  "exclude": ["node_modules", "dist", "src/SDK"],
+  "compilerOptions": {
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ESNext",
+    "module": "CommonJS",
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "incremental": true,
+    "skipLibCheck": true,
+    "types": ["node"],
+    "typeRoots": ["node_modules/@types", "src/SDK/openapi/model"],
+    "moduleResolution": "Node",
+    "strict": true,
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "ts-node": {
+    "transpileOnly": true
+  }
+}

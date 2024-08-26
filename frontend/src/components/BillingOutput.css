@@ -1,0 +1,67 @@
+.container {
+  background-color: #1e1e1e;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  width: 250px;
+  height: 150px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.container.orange {
+  background-color: orange;
+  color: black; 
+}
+
+.container.orange .percentage {
+  color: red;
+}
+
+.container.red {
+  background-color: red;
+  color: white;
+}
+
+.container.red .percentage {
+  color: white;
+}
+
+.label {
+  font-size: 18px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.balanceContainer {
+  font-size: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.balanceText {
+  margin-right: 10px;
+  display: block;
+}
+
+.balanceAmount {
+  font-weight: bold;
+  display: block; 
+}
+
+.percentage {
+  font-weight: bold;
+  color: #aaa;
+  display: block; 
+}
+
+.warning {
+  color: red;
+  font-size: 0.8rem;
+  font-style: italic;
+  margin-bottom: 2%;
+}
